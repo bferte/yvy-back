@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/baskets",
+      "handler": "baskets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/baskets/count",
+      "handler": "baskets.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/baskets/:id",
+      "handler": "baskets.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/baskets",
+      "handler": "baskets.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/baskets/:id",
+      "handler": "baskets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/baskets/:id",
+      "handler": "baskets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
